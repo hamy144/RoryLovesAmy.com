@@ -62,7 +62,7 @@
 }
 
 .card-toggle:checked + .card .inner-right {
-  -webkit-transform: rotateY(-15deg);
+  /* -webkit-transform: rotateY(-15deg); */
 }
 
 .image-landscape {
