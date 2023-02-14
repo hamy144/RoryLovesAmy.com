@@ -17,7 +17,7 @@
   -webkit-perspective: 700;
   margin: 30px auto;
   cursor: pointer;
-  height: max-content;
+  /* height: max-content; */
 }
 
 .card:hover .face {
