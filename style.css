@@ -32,13 +32,13 @@
 }
 
 .front {
-  -webkit-transform: rotateY(-20deg);
+  -webkit-transform: rotateY(-10deg);
   z-index: 3;
   -webkit-backface-visibility: hidden;
 }
 
 .inner-left {
-  -webkit-transform: rotateY(-20deg);
+  -webkit-transform: rotateY(-10deg);
   z-index: 2;
 }
 
