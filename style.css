@@ -7,8 +7,6 @@
 
 .card {
   display: block;
-  /* width: 180px;
-  height: 180px; */
   width: 800px;
   height: 800px;
   height: auto;
@@ -70,6 +68,7 @@
 .image-landscape {
     max-width: 100%;
 }
+
 .image-portrait {
-    height:881xp;
+    height:500px;
 }
