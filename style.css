@@ -74,5 +74,6 @@
 }
 
 .text {
-    padding: 150px;
+    background-color: pink;
+    padding: 125px;
 }
