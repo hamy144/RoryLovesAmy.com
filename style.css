@@ -62,3 +62,8 @@
 .card-toggle:checked + .card .inner-right {
   -webkit-transform: rotateY(-15deg);
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
