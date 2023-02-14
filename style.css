@@ -6,14 +6,12 @@
 
 .card {
   display: block;
-  /* width: 180px;
-  height: 180px; */
+  width: 180px;
+  height: 180px;
   position: relative;
   -webkit-perspective: 700;
   margin: 30px auto;
   cursor: pointer;
-  max-width: 75%;
-  max-height: 75%;
 }
 
 .card:hover .face {
@@ -24,8 +22,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 75%;
-  max-height: 75%;
+  width: 100%;
+  height: 100%;
   -webkit-backface-visibility: visible;
   -webkit-transition: all 0.5s ease-out;
   -webkit-transform-origin: 0 0;
@@ -44,6 +42,8 @@
 
 .inner-left > img {
   -webkit-transform: rotateY(180deg);
+  max-width: 75%;
+  max-height: 75%;
 }
 
 .inner-right {
