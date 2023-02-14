@@ -68,6 +68,9 @@
   -webkit-transform: rotateY(-15deg);
 }
 
-.image {
+.image-landscape {
     max-width: 100%;
+}
+.image-portrait {
+    max-height: 100%;
 }
