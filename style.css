@@ -1,0 +1,64 @@
+.cards {}
+
+.card-toggle {
+  display: none;
+}
+
+.card {
+  display: block;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  -webkit-perspective: 700;
+  margin: 30px auto;
+  cursor: pointer;
+}
+
+.card:hover .face {
+  -webkit-transition: all 0.3s ease-out;
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: all 0.5s ease-out;
+  -webkit-transform-origin: 0 0;
+}
+
+.front {
+  -webkit-transform: rotateY(-20deg);
+  z-index: 3;
+  -webkit-backface-visibility: hidden;
+}
+
+.inner-left {
+  -webkit-transform: rotateY(-20deg);
+  z-index: 2;
+}
+
+.inner-left > img {
+  -webkit-transform: rotateY(180deg);
+}
+
+.inner-right {
+  -webkit-transform: rotateY(0deg);
+  z-index: 1;
+}
+
+.card:hover .front,
+.card:hover .inner-left {
+  -webkit-transform: rotateY(-35deg);
+}
+
+.card-toggle:checked + .card .front,
+.card-toggle:checked + .card .inner-left {
+  -webkit-transform: rotateY(-165deg);
+}
+
+.card-toggle:checked + .card .inner-right {
+  -webkit-transform: rotateY(-15deg);
+}
