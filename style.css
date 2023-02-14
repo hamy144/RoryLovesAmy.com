@@ -9,7 +9,7 @@
   display: block;
   /* width: 180px;
   height: 180px; */
-  width: 800;
+  width: 600;
   height: auto;
   max-width: 50%;
   max-height: 50%;
@@ -70,5 +70,4 @@
 
 .image {
     max-width: 100%;
-    max-height: 100%;
 }
