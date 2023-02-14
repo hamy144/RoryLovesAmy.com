@@ -1,6 +1,4 @@
 .cards {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .card-toggle {
@@ -9,8 +7,12 @@
 
 .card {
   display: block;
-  width: 180px;
-  height: 180px;
+  /* width: 180px;
+  height: 180px; */
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
   position: relative;
   -webkit-perspective: 700;
   margin: 30px auto;
